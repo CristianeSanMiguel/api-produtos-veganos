@@ -1,15 +1,15 @@
-# API de Receitas Veganas
+# API de Produtos Veganos
 
-Bem-vindo à minha API de Receitas Veganas! Esta API foi desenvolvida para gerenciar receitas veganas, permitindo que os usuários adicionem, consultem, editem e excluam receitas de maneira simples. O projeto foi feito como requisito da matéria de **Desenvolvimento de API REST** do curso de **Tecnologia em Sistemas para Internet** do SENAC.
+Bem-vindo à minha API de Produtos Veganos! Esta API foi desenvolvida para gerenciar produtos veganas, permitindo que os usuários adicionem, consultem, editem e excluam produtos de maneira simples. O projeto foi feito como requisito da matéria de **Desenvolvimento de API REST** do curso de **Tecnologia em Sistemas para Internet** do SENAC.
 
 ---
 
 ## 📝 Funcionalidades
 
-- **POST /receita**: Adiciona uma nova receita vegana.
-- **GET /receita?nome=**: Retorna todas as receitas ou filtra por nome.
-- **PUT /receita/:id**: Atualiza os dados de uma receita específica.
-- **DELETE /receita/:id**: Remove uma receita pelo ID.
+- **POST /produto**: Adiciona uma nova receita vegana.
+- **GET /produto?nome=**: Retorna todas as receitas ou filtra por nome.
+- **PUT /produto/:id**: Atualiza os dados de uma receita específica.
+- **DELETE /produto/:id**: Remove uma receita pelo ID.
 
 ---
 
@@ -47,24 +47,24 @@ Bem-vindo à minha API de Receitas Veganas! Esta API foi desenvolvida para geren
      ```
      http://localhost:3000
      ```
-   - Você verá a mensagem: *"Bem-vindo à API de Receitas Veganas!"*
+   - Você verá a mensagem: *"Bem-vindo à API de Produtos!"*
 
 5. **Teste os endpoints**
    - Use o **Postman** ou outro cliente para testar as seguintes rotas:
-     - **POST /receita**: Adiciona uma nova receita.
-     - **GET /receita?nome=**: Lista todas as receitas ou busca por nome.
-     - **PUT /receita/:id**: Atualiza os dados de uma receita pelo ID.
-     - **DELETE /receita/:id**: Exclui uma receita pelo ID.
+     - **POST /produto**: Adiciona uma nova receita.
+     - **GET /produto?nome=**: Lista todas as receitas ou busca por nome.
+     - **PUT /produto/:id**: Atualiza os dados de uma receita pelo ID.
+     - **DELETE /produto/:id**: Exclui uma receita pelo ID.
 
 ---
 
 ## 🧪 Exemplos de Testes no Postman
 
-### POST /receita
+### POST /produto
 ```json
 {
   "nome": "Bolo de Cenoura Vegano",
-  "ingredientes": ["cenoura", "farinha", "açúcar", "óleo", "fermento"],
-  "tempo_preparo": "50 minutos",
-  "porcoes": 8
+  "descricao": [""Bolo de Cenoura Vegano coberto de chocolate],
+  "preco": "50 minutos",
+  "estoque": 8
 }
