@@ -25,7 +25,7 @@ Bem-vindo à minha API de Produtos Veganos! Esta API foi desenvolvida para geren
 1. **Clone ou baixe o projeto**
    - Clone o repositório do GitHub:
      ```bash
-     git clone https://github.com/CristianeSanMiguel/api-receitas-veganas
+     git clone https://github.com/CristianeSanMiguel/api-produtos-veganos
      ```
    - Descompacte o arquivo ZIP enviado.
 
