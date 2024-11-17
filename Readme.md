@@ -25,7 +25,7 @@ Bem-vindo à minha API de Receitas Veganas! Esta API foi desenvolvida para geren
 1. **Clone ou baixe o projeto**
    - Clone o repositório do GitHub:
      ```bash
-     git clone https://github.com/seu-usuario/seu-repositorio.git
+     git clone https://github.com/CristianeSanMiguel/api-receitas-veganas
      ```
    - Ou descompacte o arquivo ZIP enviado.
 
