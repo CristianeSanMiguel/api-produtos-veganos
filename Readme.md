@@ -1,15 +1,15 @@
 # API de Produtos Veganos
 
-Bem-vindo à minha API de Produtos Veganos! Esta API foi desenvolvida para gerenciar produtos veganas, permitindo que os usuários adicionem, consultem, editem e excluam produtos de maneira simples. O projeto foi feito como requisito da matéria de **Desenvolvimento de API REST** do curso de **Tecnologia em Sistemas para Internet** do SENAC.
+Bem-vindo à minha API de Produtos Veganos! Esta API foi desenvolvida para gerenciar produtos veganos, permitindo que os usuários adicionem, consultem, editem e excluam produtos de maneira simples. O projeto foi feito como requisito da matéria de **Desenvolvimento de API REST** do curso de **Tecnologia em Sistemas para Internet** do SENAC.
 
 ---
 
 ## 📝 Funcionalidades
 
-- **POST /produto**: Adiciona uma nova receita vegana.
-- **GET /produto?nome=**: Retorna todas as receitas ou filtra por nome.
-- **PUT /produto/:id**: Atualiza os dados de uma receita específica.
-- **DELETE /produto/:id**: Remove uma receita pelo ID.
+- **POST /produto**: Adiciona uma novo produto vegano.
+- **GET /produto?nome=**: Retorna todos os produtos ou filtra por nome.
+- **PUT /produto/:id**: Atualiza os dados de um produto específico.
+- **DELETE /produto/:id**: Remove um produto pelo ID.
 
 ---
 
@@ -27,7 +27,7 @@ Bem-vindo à minha API de Produtos Veganos! Esta API foi desenvolvida para geren
      ```bash
      git clone https://github.com/CristianeSanMiguel/api-receitas-veganas
      ```
-   - Ou descompacte o arquivo ZIP enviado.
+   - Descompacte o arquivo ZIP enviado.
 
 2. **Instale as dependências**
    - Abra o terminal na pasta do projeto e execute:
@@ -47,14 +47,14 @@ Bem-vindo à minha API de Produtos Veganos! Esta API foi desenvolvida para geren
      ```
      http://localhost:3000
      ```
-   - Você verá a mensagem: *"Bem-vindo à API de Produtos!"*
+   - Você verá a mensagem: *"Bem-vindo à API de Produtos Veganos!"*
 
 5. **Teste os endpoints**
    - Use o **Postman** ou outro cliente para testar as seguintes rotas:
-     - **POST /produto**: Adiciona uma nova receita.
-     - **GET /produto?nome=**: Lista todas as receitas ou busca por nome.
-     - **PUT /produto/:id**: Atualiza os dados de uma receita pelo ID.
-     - **DELETE /produto/:id**: Exclui uma receita pelo ID.
+     - **POST /produto**: Adiciona uma novo produto.
+     - **GET /produto?nome=**: Lista todos os produtos ou busca por nome.
+     - **PUT /produto/:id**: Atualiza os dados de um produto pelo ID.
+     - **DELETE /produto/:id**: Exclui um produto pelo ID.
 
 ---
 
